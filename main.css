@@ -1,0 +1,147 @@
+@font-face{
+    font-family: yekan;
+    src: url(/New\ folder\ \(2\)/#eba2a2;)
+
+}
+
+*{
+    font-family: yekan;
+}
+body{  
+   background-color: rgb(224, 224, 224);
+}
+.sidebar{
+    height: 100vh;
+    background: linear-gradient( rgb(0, 255, 21) , rgb(0, 68, 255));
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: -5px 7px 25px #999;
+   
+    
+   
+}
+
+.bottom-border{
+    border-bottom: 1px groove #ffffff ;
+}
+
+.sidebar-link{
+transition: all .4s;
+position:unset;
+height:auto;
+}
+
+.sidebar-link:hover{
+  background-color: #f51414;
+  border-radius:5px ;
+    }
+    
+
+.current{
+    background-color: #eba2a2;
+    border-radius:7px ;
+box-shadow: 2px 5px 10px #111;
+transition: all .4s;
+
+} 
+
+.current{
+    background-color: #fff2f1;
+    transform: translateY(-1px);
+
+}
+
+.search-button{
+
+
+.search-button:hover{
+background-color: #c70000;
+transform:translateY(-10px);
+}
+
+
+}
+
+
+
+.search-input{
+
+    background-color: #111;
+    border: none;
+    border-radius: 0px ;
+    border-bottom: 2px solid #dd0000;
+    transition: all .4s;
+}
+
+
+.search-input:focus{
+    background-color: #111;
+    box-shadow: none;
+    border-bottom: 2px solid #e20000;
+
+}
+
+
+
+.card-common{
+    box-shadow: 1px 2px 5px #008127;
+    transition: all .4s;
+    
+    }
+    
+
+
+    .card-common:hover{
+        box-shadow:  2px 3px 15px #0035c7;
+        transform: translateY(-1px);
+    }
+
+
+    .task-border{
+        border-right: 3px solid #0245ff;
+    }
+
+
+@media ( max-width :768px ){
+    .top-navbar{
+position: static;
+
+    }
+
+    .sidebar{
+
+        position:unset;
+        height:auto;
+
+    }
+}
+
+
+
+.messi{
+
+    margin: auto;
+    padding: 20px;
+    
+}
+
+.topnav{
+    
+}
+
+
+.bfixed-top{
+ 
+    margin: auto;
+}
+
+
+.iran{
+    color: #ff0000;
+    margin-right: auto;
+    margin: auto;
+    
+}
+
+
